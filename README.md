@@ -44,38 +44,36 @@ Supports:
 
 terraform-aws-3tier-architecture/
 │
-├── backend.tf
-├── provider.tf
 ├── versions.tf
+├── provider.tf
+├── backend.tf
 ├── variables.tf
 ├── terraform.tfvars
+├── main.tf
 ├── outputs.tf
 │
-├── modules/
-│   ├── vpc/
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   └── outputs.tf
-│   │
-│   ├── security-groups/
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   └── outputs.tf
-│   │
-│   ├── ec2/
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   └── outputs.tf
-│   │
-│   ├── alb/
-│   │   ├── main.tf
-│   │   ├── variables.tf
-│   │   └── outputs.tf
-│   │
-│   └── rds/
-│       ├── main.tf
-│       ├── variables.tf
-│       └── outputs.tf
-│
-└── README.md
-
+└── modules/
+    ├── vpc/
+    │   ├── main.tf
+    │   ├── variables.tf
+    │   └── outputs.tf
+    │
+    ├── security-groups/
+    │   ├── main.tf
+    │   ├── variables.tf
+    │   └── outputs.tf
+    │
+    ├── ec2/
+    │   ├── main.tf
+    │   ├── variables.tf
+    │   └── outputs.tf
+    │
+    ├── alb/
+    │   ├── main.tf
+    │   ├── variables.tf
+    │   └── outputs.tf
+    │
+    └── rds/
+        ├── main.tf
+        ├── variables.tf
+        └── outputs.tf
